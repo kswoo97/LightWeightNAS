@@ -1,8 +1,8 @@
 # NAS-Pretraining
-### A mutable neural architecture project. 
+### An effective generative pre-training strategy for NAS. 
 
-This project aims to develop an automated algorithm that enables a neural network to adaptively mutate, enhancing the performance of downstream tasks.
-To this end, in this software, we provide a training strategy for neural architecture performance predictors.
+In this software, we provide a generative pre-training strategy for neural architecture performance predictors, 
+which can improve the search performance.
 Specifically, (1) we make the information flow representation of a neural architecture, and (2) make the neural architecture performance predictor learn this flow representation.
 
 ## Regarding our flow surrogate.
