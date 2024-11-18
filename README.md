@@ -11,4 +11,4 @@ Specifically, we first train a NAS method to better understand the structure of 
 
 ### Code guideline
 
-One can refer to ```run.py``` file to see how our NAS algorithm works.
+One can refer to ```run.py``` python file to see how our NAS algorithm works.
