@@ -79,7 +79,7 @@ if __name__ == "__main__" :
     else : 
         raise TypeError("Data should be given one of (nb101, nb201, nb301).")
     
-    data = torch.load("./dataset/{0}_unified.pt".format(dname))
+    data = torch.load("./data/{0}_unified.pt".format(dname))
     d_proxy = data[0].fwbw.shape[1]
     data_down = copy.deepcopy(data)
     n_feat = data_down[0].x.shape[1]
