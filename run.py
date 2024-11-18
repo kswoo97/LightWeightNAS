@@ -46,30 +46,30 @@ if __name__ == "__main__" :
     
     parser.add_argument('-dname', '--dname', type=str, default='nb101')            
     parser.add_argument('-device', '--device', type=str, default='cuda:0')
-    parser.add_argument('-train_ratio', '--train_ratio', type=float, default=0.01)
-    parser.add_argument('-proj_layer', '--proj_layer', type=int, default=2)
-    parser.add_argument('-proj_dim1', '--proj_dim1', type=int, default=128)
-    parser.add_argument('-proj_dim2', '--proj_dim2', type=int, default=64)
-    parser.add_argument('-ssl_lr', '--ssl_lr', type=float, default=1e-3)
-    parser.add_argument('-wdecay', '--wdecay', type=float, default=1e-6)
-    parser.add_argument('-lamda1', '--lamda1', type=float, default=0.5)
-    parser.add_argument('-lamda2', '--lamda2', type=float, default=0.5)
+    parser.add_argument('-ratio', '--ratio', type=float, default=0.01)
+    parser.add_argument('-pl', '--pl', type=int, default=2)
+    parser.add_argument('-p1', '--p1', type=int, default=128)
+    parser.add_argument('-p2', '--p1', type=int, default=64)
+    parser.add_argument('-lr', '--lr', type=float, default=1e-3)
+    parser.add_argument('-wd', '--wdecay', type=float, default=1e-6)
+    parser.add_argument('-l1', '--l1', type=float, default=0.5)
+    parser.add_argument('-l2', '--l2', type=float, default=0.5)
     parser.add_argument('-enc', '--enc', type=str, default="gnn")
     
     args = parser.parse_args()
     
     dname = args.dname
     device = args.device
-    train_ratio = args.train_ratio
-    proj_dim1 = args.proj_dim1
-    proj_dim2 = args.proj_dim2
-    proj_layer = args.proj_layer
+    train_ratio = args.ratio
+    proj_dim1 = args.p1
+    proj_dim2 = args.p2
+    proj_layer = args.pl
     encoder_type = args.enc
     gnn_type = args.enc
-    ssl_lr = args.ssl_lr
-    wdecay = args.wdecay
-    lamda1 = args.lamda1
-    lamda2 = args.lamda2
+    ssl_lr = args.lr
+    wdecay = args.wd
+    lamda1 = args.l1
+    lamda2 = args.l2
 
     if dname == "nb101" : 
         n_train = 7290
