@@ -11,7 +11,7 @@ from torch_scatter import scatter_sum
 import copy
 
 from scipy.stats import stats
-from utils import test_xk
+from train_utils import test_xk
 
 from torch_geometric.nn import GINConv, ResGatedGraphConv
 from torch_geometric.nn.conv import MessagePassing
