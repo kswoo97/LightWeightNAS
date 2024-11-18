@@ -1,7 +1,3 @@
-"""
-Code implementation is largely based on Hwang et al., CVPR 2024.
-Refer to https://github.com/y0ngjaenius/CVPR2024_FLOWERFormer.
-"""
 
 import sys
 import json
