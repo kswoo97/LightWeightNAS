@@ -1,6 +1,6 @@
 # Lightweight NAS
 ### Overview
-This software
+This software is
 
 In this software, we provide a lightweight training strategy for neural architecture search (NAS). 
 
