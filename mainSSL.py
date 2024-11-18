@@ -1,4 +1,5 @@
 import torch
+import copy
 import torch.nn as nn
 import numpy as np
 from tqdm.auto import tqdm
@@ -8,18 +9,12 @@ import math
 from torch_geometric.nn.pool import global_mean_pool, global_max_pool
 from torch_scatter import scatter_sum
 
-import copy
-
 from scipy.stats import stats
 from train_utils import test_xk
 
 from torch_geometric.nn import GINConv, ResGatedGraphConv
 from torch_geometric.nn.conv import MessagePassing
 from torch_geometric.data import Data
-
-## Many parts of our code is from Hwang et al., CVPR 2024.
-## Official implementation of the above paper is in https://github.com/y0ngjaenius/CVPR2024_FLOWERFormer
-
 
 class ProjectionHead(torch.nn.Module) : 
     
