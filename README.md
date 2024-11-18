@@ -1,6 +1,6 @@
 # Lightweight NAS
 ### Overview
-This software is part of the mutable
+This software is part of the mutable neural
 
 In this software, we provide a lightweight training strategy for neural architecture search (NAS). 
 
