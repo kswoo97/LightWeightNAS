@@ -170,7 +170,7 @@ if __name__ == "__main__" :
 
             SSL_train_loader, _, _ = get_data(data, perm = perm, batch_size = BSize, train_ratio = 1.0, num_train = len(data)) ## 1024
             
-            model = FGP(encoder = model, flow_decoder = flow_decoder, proxy_decoder = proxy_decoder, 
+            model = LWNAS(encoder = model, flow_decoder = flow_decoder, proxy_decoder = proxy_decoder, 
                         lr = ssl_lr, epochs = 200, loader = SSL_train_loader, device = device, cfg = cfg, 
                         l1 = lamda1, l2 = lamda2, w_decay = wdecay)
 
