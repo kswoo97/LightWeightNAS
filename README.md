@@ -10,7 +10,7 @@ Specifically, we first train a NAS method to better understand the structure of 
 
 ### Data
 Our software supports three NAS datasets.
-Dataset details are provided in the below links:
+Dataset details are provided in the following link:
 https://drive.google.com/file/d/1SbxB-Ww_D9IzFciVhC5Qvsl7e6fKgJ6g/view?usp=drive_link
 
 ### Code guideline
