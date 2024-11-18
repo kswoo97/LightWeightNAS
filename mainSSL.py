@@ -56,7 +56,7 @@ class ProjectionHead(torch.nn.Module) :
         return x
     
     
-def FGP(encoder, flow_decoder, proxy_decoder, 
+def LWNAS(encoder, flow_decoder, proxy_decoder, 
         lr, epochs, loader, device, cfg, 
         l1 = 0.5, l2 = 0.5, w_decay = 1e-6) :
 
