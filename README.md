@@ -11,6 +11,7 @@ Specifically, we first train a NAS method to better understand the structure of 
 ### Data
 Our software supports three NAS datasets.
 Dataset details are provided in the below links:
+http://tiny.cc/lightnasdataset
 
 
 ### Code guideline
