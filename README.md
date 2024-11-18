@@ -1,6 +1,6 @@
 # Lightweight NAS
 ### Overview
-This software is part of the mutable neural network
+This software is part of the mutable neural network project.
 
 In this software, we provide a lightweight training strategy for neural architecture search (NAS). 
 
