@@ -15,7 +15,7 @@ from tqdm import trange
 from torch.utils.data import Dataset
 import pickle
 
-from utils import (
+from train_sup import (
     cosine_with_warmup_scheduler,
     seed_everything,
     Option,
@@ -24,9 +24,9 @@ from utils import (
     get_perms)
 
 
-from flow_aware_encoders.flowerformer import FLOWERFormer
+from performance_predictor.flowerformer import FLOWERFormer
 from train_utils import train_dict
-from src import *
+from mainSSL import *
 
 class MyDataset(Dataset):
     def __init__(self, data):
