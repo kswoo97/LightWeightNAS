@@ -1,7 +1,7 @@
-# NAS-Pretraining
-### An effective generative pre-training strategy for NAS. 
+# Lightweight NAS
+### A lightweight training strategy for NAS. 
 
-In this software, we provide a generative pre-training strategy for neural architecture performance predictors, 
+In this software, we provide a light-weight strategy for neural architecture performance predictors, 
 which can improve the search performance.
 Specifically, (1) we make the information flow representation of a neural architecture, and (2) make the neural architecture performance predictor learn this flow representation.
 
