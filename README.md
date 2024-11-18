@@ -11,8 +11,6 @@ Therefore, we reduce the cost required to find good neural architectures, lightn
 ***General:***
 Our training strategy can be employed for various performance-prediction-based NAS algorithms.
 
-To this end, we first train a NAS method to better understand the structure of neural architectures and then train the NAS method to accurately predict the performance of a given neural architecture.
-
 ### Data
 Our software supports three NAS datasets.
 Dataset details are provided in the following link:
