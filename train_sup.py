@@ -4,7 +4,7 @@ import torch
 import numpy as np
 from scipy.stats import stats
 
-from utils import test_xk
+from train_utils import test_xk
 
 """
 This code is from Hwang et al., CVPR 2024. https://github.com/y0ngjaenius/CVPR2024_FLOWERFormer
