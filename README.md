@@ -5,9 +5,7 @@ In this software, we provide a lightweight training strategy for neural architec
 
 Specifically, we first train a NAS method to better understand the structure of neural architectures and then train the NAS method to accurately predict the performance of a given neural architecture.
 
-## Regarding our flow surrogate.
 
-Please refer to the Jupyter Notebook named ```obtaining_flow_surrogate.ipynb```.
 
 ## Datasets
 
